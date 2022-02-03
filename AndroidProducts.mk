@@ -1,6 +1,7 @@
 PRODUCT_MAKEFILES := \
        $(LOCAL_DIR)/aosp_dre8.mk \
-       $(LOCAL_DIR)/lineage_dre8.mk
+       $(LOCAL_DIR)/lineage_dre8.mk \
+       $(LOCAL_DIR)/corvus_dre8.mk
 
 
 COMMON_LUNCH_CHOICES := \
@@ -10,3 +11,6 @@ COMMON_LUNCH_CHOICES := \
     lineage_dre8-user \
     lineage_dre8-userdebug \
     lineage_dre8-eng
+    corvus_dre8-user \
+    corvus_dre8-userdebug \
+    corvus_dre8-eng
