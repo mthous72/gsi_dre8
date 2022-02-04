@@ -51,7 +51,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/board/generic_arm64/device.mk)
 #
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_release.mk)
 
-PRODUCT_NAME := corvus_dre8
+PRODUCT_NAME := derpfest_dre8
 PRODUCT_BRAND := OnePlus
 PRODUCT_DEVICE := dre8
 PRODUCT_MANUFACTURER := OnePlus
